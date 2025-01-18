@@ -1,0 +1,4 @@
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
+git clone https://github.com/samsungexynos7420/proprietary_vendor_samsung vendor/samsung/ -b lineage-20-new
+git clone https://github.com/samsungexynos7420/android_kernel_samsung_universal7420 kernel/samsung/zenlte -b lineage-20-new
+git clone https://github.com/samsungexynos7420/android_device_samsung_zenlte device/samsung/zenlte
